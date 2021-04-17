@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    color: rgb(46, 44, 44);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(75, 71, 71);
+}
+a {
+    text-decoration: none;
+    color: rgb(106, 129, 233);
+}
+.resume {
+    background-color: white;
+    width: 60em;
+    height: 65em;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 9em;
+    padding-bottom: 72em;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(5, 5, 216, 0.952);
+    color: whitesmoke;
+    height: 10em;
+    text-align: center;
+    justify-content: center;
+
+}
+.title {
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 2.9em;
+}
+.name p {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.3em;
+}
+.job-desc p {
+    font-size: 1em;
+}
+.content-body {
+    display: flex;
+    
+}
+/* start of left content*/
+.left-content {
+    padding-left: 2em;
+    padding-right: 0.9em;
+    padding-top: 2em;
+    height: 68.8em;
+    background-color: rgba(31, 69, 99, 0.05);
+    font-size: 0.9em;
+    font-weight: 500;
+    
+}
+.left-content ul {
+    list-style: none;
+}
+.contact {
+    margin-bottom: 2.8em;
+    text-align: end;
+}
+.contact h2 {
+    float: right;
+    padding-bottom: 0.5em;
+}
+.info {
+    color: inherit;
+}
+#info {
+    padding-bottom: 0;
+    font-size: 9.6px;
+    font-weight: bolder;
+    pointer-events: none;
+}
+li img {
+    opacity: 0.5;
+    height: 11px;
+    width: 13px;
+    padding-left: 4px;
+}
+.edu {
+    text-align: end;
+    line-height: 1.7em;
+    
+}
+.courses {
+    margin-top: 2.8em;
+    text-align: end;
+    line-height: 1.7em;
+}
+.skills {
+    margin-top: 2.8em;
+    text-align: end;
+    line-height: 1.7em;
+}
+/*start of right content*/
+.right-content {
+    margin-left: 1.9em;
+    padding-top: 2em;
+    padding-right: 3.5em;
+}
+.obj {
+    margin-bottom: 2em;
+    font-size: 0.9em;
+    font-weight: 490;
+}
+.work-exp {
+    line-height: 1.7em;
+}
+.work-exp ul {
+    padding-left: 2.4em;
+}
+.right {
+    padding-bottom: 0.3em;
+}
+.righ {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 550;
+}
+.rig {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.ri {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.assist {
+    margin-top: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+.sfg {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+.time {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.project {
+    margin-top: 2em;
+}
+.project ul {
+    padding-left: 2.5em;
+}
+.proj {
+    font-weight: 650;
+    padding-bottom: 0.4em;
+}
+.food {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    padding-bottom: 0.3em;
+}
+.create {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 0.4em;
+}
+.curr {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
